@@ -19,7 +19,7 @@ nav a {
     color: black
 }
 /* Header */
-header {
+.photo {
     display: flex;
     height: 70vw;
     justify-content: center;
@@ -33,7 +33,7 @@ figure {
     background-size: cover;
     border-radius: 50%;
 }
-/* Contact information */
+
 .contact-info {
     display: flex;
     align-items: center;
@@ -81,11 +81,11 @@ footer {
 
 @media screen and (min-width: 650px) and (max-width: 1200px) {
     nav a {
-        font-size: 2.5em;
+        font-size: 2em;
         padding: 0.5em;
     }
 
-    header {
+    .photo {
         height: 55vw;
     }
     figure {
@@ -107,5 +107,44 @@ footer {
 }
 
 @media screen and (min-width: 1201px) {
+    nav a {
+        font-size: 2.5em;
+        padding: 0.3em;
+    }
+    
+    header {
+        display: flex;
+        flex-wrap: nowrap;
+        height: 60vh;
+        width: 100%;
+    }
 
+    .photo {
+        flex:1;
+        align-items: center;
+        height: 60vh;
+    }
+
+    figure {
+        height: 50vh;
+        width: 50vh;
+
+    }
+    .contact-info {
+        flex: 1;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    h1 {
+        font-size: 5.5rem;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+    }
+
+    p {
+        font-size: 2rem;
+    }
 }
