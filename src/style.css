@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background: rgb(238, 226, 183);
+    justify-content: space-around;
+}
+
+nav a {
+    padding: 1em;
+    text-decoration: none;
+}
