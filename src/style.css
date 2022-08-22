@@ -69,7 +69,13 @@ p {
     margin: 2rem 0;
 }
 
-.social-links a {
+.social-links div {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+.social-links div a {
     height: 8vh;
     width: 8vh;
 }
@@ -103,6 +109,10 @@ footer {
 
     p {
         font-size: 2rem;
+    }
+
+    .social-links div {
+        width: 60vw;
     }
 }
 
@@ -148,5 +158,9 @@ footer {
 
     p {
         font-size: 2rem;
+    }
+
+    .social-links div {
+        width: 40vw;
     }
 }
