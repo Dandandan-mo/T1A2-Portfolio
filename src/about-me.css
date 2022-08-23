@@ -67,7 +67,7 @@ footer {
     justify-content: center;
 }
 
-@media screen and (min-width: 650px) and (max-width: 1299px) {
+@media screen and (min-width: 650px) and (max-width: 1200px){
     nav a {
         font-size: 2em;
         padding: 0.5em;
@@ -82,6 +82,7 @@ footer {
     figure {
         width: 40vw;
         height: 65vw;
+        margin-right: 20px;
     }
 
     article {
@@ -98,5 +99,43 @@ footer {
 }
 
 @media screen and (min-width: 1201px) {
+    nav a {
+        font-size: 2.5em;
+        padding: 0.3em;
+    }
+
+    main {
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    figure {
+        width: 30vw;
+        height: 45vw;
+    
+    }
+
+    .texts {
+        width: 45vw;
+    }
+
+    article {
+        padding-bottom: 1em;
+    }
+
+    h2 {
+        font-size: 2.5em;
+    }
+
+    p {
+        font-size: 1.75em;
+    }
+
+    main a {
+        margin: 3em 30vw;
+    }
+
 
 }
