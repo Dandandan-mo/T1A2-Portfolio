@@ -232,6 +232,11 @@ footer {
     figure {
         width: 26vw;
         height: 18vw;
+        flex: 1;
+    }
+
+    div {
+        flex:1;
     }
 
     h2 {
