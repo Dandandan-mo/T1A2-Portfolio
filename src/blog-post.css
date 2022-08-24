@@ -74,3 +74,39 @@ p {
         font-size: 1.5em;
     }
 }
+
+@media screen and (min-width:1201px) {
+    nav a {
+        font-size: 2.5em;
+    }
+    
+    article {
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 90vw;
+    }
+
+    h1 {
+        width: 90vw;
+        font-size: 4em;
+    }
+
+    img {
+        width: 43vw;
+        align-self: flex-start;
+    }
+
+    section {
+        width: 43vw;
+        padding: 0
+    }
+
+    h2 {
+        font-size: 3em;
+    }
+
+    p {
+        font-size: 2em;
+        margin: 0;
+    }
+}
