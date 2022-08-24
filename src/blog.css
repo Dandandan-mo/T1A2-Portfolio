@@ -3,6 +3,12 @@ body {
     padding: 0;
     margin: 0;
 }
+/* Header */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 nav {
     display: flex;
@@ -19,16 +25,14 @@ nav a {
     color: black
 }
 
-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+h1 {
+    font-size: 2.5em;
 }
 
 main {
     display: flex;
     flex-direction: column;
-    margin: 1em;
+    margin: 0.25em;
 }
 
 main a {
@@ -41,7 +45,6 @@ main a {
     padding: 0.5em;
     text-decoration: none;
     color: black;
-    border-radius: 20px;
     height: 20vh;
 }
 
@@ -50,11 +53,10 @@ figure {
     height: 20vh;
     margin: 5px;
     align-self: center;
-    border-radius: 10px;
 }
 
 h2 {
-    width: 43vw;
+    width: 45vw;
     padding-top: 0.5em;
     font-size: 1.25em;
 }
@@ -90,38 +92,181 @@ p {
 
 aside {
     width: 100vw;
-    height: 55vh;
     background: #e1dfd5;
     padding: 1em;
+    margin-top: 1.5em;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-input {
-    width: 40vw;
 }
 
 form {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     width: 60vw;
 }
 
+#searchbar {
+    flex-direction: row;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    margin-right: 0.5em;
+}
+
 #subscriptionform {
+    flex-direction: column;
+    align-items: center;
     background: #f4eedf;
-    border: 3px dashed rgb(139, 102, 33);
+    border: 3px dashed #8b6621;
     padding: 1em;
     margin-top: 3em;
-
 }
 
 #submit-button {
     width: 60px;
 }
 
+
+input {
+    width: 40vw;
+    height: 25px;
+}
+
 footer {
     display: flex;
     justify-content: center;
+}
+
+@media screen and (min-width:650px) and (max-width:1200px) {
+    nav a {
+        font-size: 2em;
+        padding: 0.5em;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+    
+    main {
+        width: 58vw;
+        margin-left: 1em;
+    }
+
+    main a {
+        flex-flow: column nowrap;
+        height: 55vw;
+    }
+
+    figure {
+        width: 45vw;
+        height: 30vw;
+    }
+
+    h2 {
+        font-size: 1.75em;
+    }
+
+    p {
+        font-size: 1.25em;
+    }
+
+    aside {
+        width: 30vw;
+        height: 58vh;
+        margin: 0;
+        position: fixed;
+        left: 63vw;
+        top: 25vh;
+    }
+
+    form {
+        width: 25vw;
+    }
+
+    input {
+        width: 24vw;
+    }
+
+    #searchbar {
+        position: relative;
+        left: -20px;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    label {
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    nav a {
+        font-size: 2.5em;
+        padding: 0.3em;
+    }
+
+    h1 {
+        font-size: 3.5em;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+    
+    main {
+        width: 58vw;
+        margin-left: 1em;
+    }
+
+    main a {
+        flex-flow: column nowrap;
+        height: 55vw;
+    }
+
+    figure {
+        width: 45vw;
+        height: 30vw;
+    }
+
+    h2 {
+        font-size: 1.75em;
+    }
+
+    p {
+        font-size: 1.25em;
+    }
+
+    aside {
+        width: 30vw;
+        height: 58vh;
+        margin: 0;
+        position: fixed;
+        left: 63vw;
+        top: 25vh;
+    }
+
+    form {
+        width: 25vw;
+    }
+
+    input {
+        width: 24vw;
+    }
+
+    #searchbar {
+        position: relative;
+        left: -20px;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    label {
+        font-size: 1.25em;
+    }
 }
