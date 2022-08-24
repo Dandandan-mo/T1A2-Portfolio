@@ -28,7 +28,7 @@ nav a {
 h1 {
     font-size: 2.5em;
 }
-
+/* Main */
 main {
     display: flex;
     flex-direction: column;
@@ -89,7 +89,7 @@ p {
     background:url('images/winter.jpg') no-repeat center darkgreen;
     background-size: cover;
 }
-
+/* Sidebar */
 aside {
     width: 100vw;
     background: #e1dfd5;
@@ -103,6 +103,7 @@ aside {
 form {
     display: flex;
     width: 60vw;
+    margin-top: 1em;
 }
 
 #searchbar {
@@ -212,49 +213,55 @@ footer {
     h1 {
         font-size: 3.5em;
     }
-
-    h1 {
-        font-size: 3em;
-    }
     
     main {
-        width: 58vw;
-        margin-left: 1em;
+        width: 65vw;
+        margin: 0 2em 2em 2em;
+        flex-flow: row wrap;
+        justify-content: space-around;
     }
 
     main a {
         flex-flow: column nowrap;
-        height: 55vw;
+        align-items: center;
+        justify-content: center;
+        width: 28vw;
+        height: 38vw;
+        margin: 1em;
     }
 
     figure {
-        width: 45vw;
-        height: 30vw;
+        width: 26vw;
+        height: 18vw;
     }
 
     h2 {
-        font-size: 1.75em;
+        font-size: 2em;
+        width: 26vw;
     }
 
     p {
-        font-size: 1.25em;
+        font-size: 1.5em;
     }
 
     aside {
-        width: 30vw;
+        width: 25vw;
+        max-width: 500px;
         height: 58vh;
         margin: 0;
         position: fixed;
-        left: 63vw;
+        left: 70vw;
         top: 25vh;
     }
 
     form {
-        width: 25vw;
+        width: 20vw;
+        max-width: 415px;
     }
 
     input {
-        width: 24vw;
+        width: 15vw;
+        max-width: 300px;
     }
 
     #searchbar {
@@ -263,10 +270,10 @@ footer {
     }
 
     h3 {
-        font-size: 1.5em;
+        font-size: 2em;
     }
 
     label {
-        font-size: 1.25em;
+        font-size: 1.5em;
     }
 }
