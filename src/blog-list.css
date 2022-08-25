@@ -28,13 +28,13 @@ nav a {
 h1 {
     font-size: 2.5em;
 }
-/* Main */
+/* Main Part of the Page*/
 main {
     display: flex;
     flex-direction: column;
     margin: 0.25em;
 }
-
+/* Links to the Blog Posts */
 main a {
     display: flex;
     flex-flow: column wrap;
@@ -56,13 +56,13 @@ figure {
 }
 
 h2 {
-    width: 45vw;
-    padding-top: 0.5em;
+    width: 48vw;
     font-size: 1.25em;
+    margin-top: 0;
 }
 
 p {
-    align-self: left;
+    margin: 0;
 }
 
 #pic1 {
@@ -140,7 +140,7 @@ footer {
     justify-content: center;
 }
 
-@media screen and (min-width:650px) and (max-width:1200px) {
+@media screen and (min-width:600px) and (max-width:1100px) {
     nav a {
         font-size: 2em;
     }
@@ -156,6 +156,7 @@ footer {
 
     main a {
         flex-flow: column nowrap;
+        align-items: center;
         height: 55vw;
     }
 
@@ -166,6 +167,7 @@ footer {
 
     h2 {
         font-size: 1.75em;
+        margin-top: 0.5em;
     }
 
     p {
@@ -204,7 +206,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1101px) {
     nav a {
         font-size: 2.5em;
     }
@@ -242,6 +244,7 @@ footer {
     h2 {
         font-size: 2em;
         width: 26vw;
+        padding-top: 1em;
     }
 
     p {

@@ -44,7 +44,7 @@ figure {
 }
 
 article {
-    margin: 0.5em 1.5em;
+    margin: 0.5em 1.5em 2.5em 1.5em;
 }
 
 p {
@@ -61,7 +61,7 @@ main a {
     color: black;
     font-weight: bolder
 }
-/* footer */
+/* Footer */
 footer {
     display: flex;
     justify-content: center;
@@ -106,7 +106,7 @@ footer {
         flex-flow: row wrap;
         justify-content: center;
         align-items: flex-start;
-        width: 100%;
+        width: 100vw;
     }
 
     figure {
@@ -115,7 +115,7 @@ footer {
     
     }
 
-    .texts {
+    section {
         width: 45vw;
     }
 

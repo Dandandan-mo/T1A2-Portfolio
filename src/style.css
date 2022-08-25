@@ -1,8 +1,9 @@
-body {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+/* Header */
 /* Nav bar */
 nav {
     display: flex;
@@ -18,61 +19,63 @@ nav a {
     font-size: 1.5rem;
     color: black
 }
-/* Header */
-.photo {
+/* Main */
+main {
     display: flex;
-    height: 70vw;
-    justify-content: center;
-    margin-top: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
 }
 
 figure {
-    width: 70vw;
-    height: 70vw;
+    width: 60vw;
+    height: 60vw;
     background: url('images/profile-photo2.jpeg') no-repeat center rgb(238, 226, 183);
     background-size: cover;
     border-radius: 50%;
+    margin-bottom: 2em;
 }
 
 .contact-info {
     display: flex;
     align-items: center;
-    justify-content: left;
     flex-direction: column;
 }
 
 h1 {
-    font-size: 3.5rem;
-    margin:0;
-    padding-top: 2.5rem;
+    font-size: 3em;
 }
 
 h2 {
     font-size: 2rem;
-    margin: 0;
-    padding-top: 0.5rem;
+    padding-top: 0.5em;
 }
 
 p {
     font-size: 1.5rem;
-    margin: 0;
     padding-top: 0.5rem;
 }
-/* Social links */
+
 .social-links {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 100vw;
     height: 15vh;
     background: #e1dfd5;
     margin: 2rem 0;
 }
 
-.social-links div {
+.social-links {
     display: flex;
     width: 100vw;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+.social-links div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
 }
 
 .social-links div a {
@@ -83,16 +86,14 @@ p {
 footer {
     display: flex;
     justify-content: center;
+    width: 100vw;
 }
 
-@media screen and (min-width: 650px) and (max-width: 1200px) {
+@media screen and (min-width: 650px) and (max-width: 1100px) {
     nav a {
         font-size: 2em;
     }
 
-    .photo {
-        height: 55vw;
-    }
     figure {
         width: 50vw;
         height: 50vw;
@@ -115,35 +116,32 @@ footer {
     }
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1101px) {
     nav a {
         font-size: 2.5em;
     }
-    
-    header {
+
+    main {
+        flex-flow: row wrap;
+        margin-top: 4em;
+    }
+
+    main div {
         display: flex;
-        flex-wrap: nowrap;
-        height: 60vh;
-        width: 100%;
+        justify-content: flex-end;
+        flex: 1;
+        margin-right: 2em;
     }
-
-    .photo {
-        flex:1;
-        align-items: center;
-        height: 60vh;
-    }
-
     figure {
         height: 50vh;
         width: 50vh;
-        margin-right: 0;
 
     }
     .contact-info {
         flex: 1;
         justify-content: center;
         align-items: flex-start;
-        padding-left: 2em;
+        margin-left: 2em;
     }
 
     h1 {
@@ -159,6 +157,6 @@ footer {
     }
 
     .social-links div {
-        width: 40vw;
+        margin: 0 30vw 0 30vw;
     }
 }
