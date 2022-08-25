@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&family=Old+Standard+TT&display=swap');
+
 body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background: url('images/texture.jpg') no-repeat center;
+    background-size: cover;
 }
 /* header */
 header {
@@ -14,7 +18,7 @@ nav {
     display: flex;
     height: 10vh;
     width: 100%;
-    background: #e1dfd5;
+    background: #f4eedf;
     justify-content: space-around;
     align-items: center;
 }
@@ -22,11 +26,17 @@ nav {
 nav a {
     text-decoration: none;
     font-size: 1.5rem;
-    color: black;
+    font-family: 'El Messiri', sans-serif;
+    color: #805d21;
+}
+
+nav a:hover {
+    color: #2c5d7c;
 }
 
 h1 { 
-    font-size: 3em;
+    font-size: 2.5em;
+    font-family: 'El Messiri', sans-serif;
 }
 /* Main part of the page */
 main {
@@ -47,20 +57,33 @@ article {
     margin: 0.5em 1.5em 2.5em 1.5em;
 }
 
+h2 {
+    font-family: 'El Messiri', sans-serif;
+    color: #853109;
+}
+
 p {
     font-size: 1.25em;
+    font-family: 'Old Standard TT', serif;
 }
 
 main a {
     padding: 1em;
     margin: 2.5em 0;
-    background: #e1dfd5;
+    background: #f4eedfca;
     border-radius: 10px;
     text-decoration: none;
     font-size: 1.5em;
-    color: black;
-    font-weight: bolder
+    color: #805d21;
+    font-family: 'El Messiri', sans-serif;
+    transition: 0.5s;
 }
+
+main a:hover {
+    transform: scale(1.05, 1.05);
+    color: #2c5d7c;
+}
+
 /* Footer */
 footer {
     display: flex;
@@ -87,6 +110,10 @@ footer {
     article {
         width: 40vw;
         margin-bottom: 3.5em;
+    }
+
+    h1 {
+        font-size: 3em;
     }
 
     h2 {
@@ -121,6 +148,10 @@ footer {
 
     article {
         padding-bottom: 1em;
+    }
+
+    h1 {
+        font-size: 3.5em;
     }
 
     h2 {

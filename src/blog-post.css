@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&family=Old+Standard+TT&display=swap');
+
 body {
     box-sizing: border-box;
     padding: 0;
@@ -5,6 +7,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: url('images/texture.jpg') no-repeat center;
+    background-size: cover;
 }
 /* Header */
 header {
@@ -14,7 +18,7 @@ nav {
     display: flex;
     height: 10vh;
     width: 100%;
-    background: #e1dfd5;
+    background: #f4eedf;
     justify-content: space-around;
     align-items: center;
 }
@@ -22,7 +26,12 @@ nav {
 nav a {
     text-decoration: none;
     font-size: 1.5rem;
-    color: black
+    font-family: 'El Messiri', sans-serif;
+    color: #805d21;
+}
+
+nav a:hover {
+    color: #2c5d7c;
 }
 /* Article */
 article {
@@ -37,18 +46,23 @@ img {
 }
 
 section {
-    padding: 1em 0;
+    padding: 1.5em;
+    background: #f4eedfb4;
 }
 
 h1 {
     font-size: 2em;
+    font-family: 'El Messiri', sans-serif;
 }
 
 h2 {
     font-size: 1.5em;
+    font-family: 'El Messiri', sans-serif;
+    color: #853109;
 }
 p {
     font-size: 1.25em;
+    font-family: 'Old Standard TT', serif;
     padding-bottom: 1em;
 }
 
@@ -86,7 +100,7 @@ p {
     article {
         flex-flow: row wrap;
         justify-content: space-between;
-        width: 90vw;
+        width: 93vw;
     }
 
     h1 {
@@ -101,7 +115,6 @@ p {
 
     section {
         width: 43vw;
-        padding: 0
     }
 
     h2 {
@@ -110,6 +123,5 @@ p {
 
     p {
         font-size: 2em;
-        margin: 0;
     }
 }
