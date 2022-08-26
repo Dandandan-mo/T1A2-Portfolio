@@ -19,35 +19,35 @@ The website's text and graphic contents are wrapped in HTML semantic elements an
 ## Sitemap
 ![portfolio sitemap](docs/Sitemap.png)
 ## Screenshots
-- Home Page
+### Home Page
 ![home mobile](docs/screenshots/home1.png)
 
 ![home tablet](docs/screenshots/home2.png)
 
 ![home desktop](docs/screenshots/home3.png)
 
-- About Page
+### About Page
 ![about mobile](docs/screenshots/about1.png)
 
 ![about tablet](docs/screenshots/about2.png)
 
 ![about desktop](docs/screenshots/about3.png)
 
-- Blog
+### Blog
 ![Blog list mobile](docs/screenshots/blog-list1.png)
 
 ![blog list tablet](docs/screenshots/blog-list2.png)
 
 ![blog list desktop](docs/screenshots/blog-list3.png)
 
-- Blog Post
+### Blog Post
 ![blog post mobile](docs/screenshots/blog-post1.png)
 
 ![blog post tablet](docs/screenshots/blog-post2.png)
 
 ![blog post desktop](docs/screenshots/blog-post3.png)
 
-- Projects
+### Projects
 ![Projects mobile](docs/screenshots/projects1.png)
 
 ![Projects mobile](docs/screenshots/projects2.png)
