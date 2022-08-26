@@ -1,8 +1,6 @@
-# Published Portfolio Website
-[click to view website](https://effulgent-salamander-4ef5ab.netlify.app/)
+# [Published Portfolio Website](https://effulgent-salamander-4ef5ab.netlify.app/)
 
-# GitHub Repo
-[click to view repo](https://github.com/Dandandan-mo/T1A2-Portfolio)
+# [GitHub Repo](https://github.com/Dandandan-mo/T1A2-Portfolio)
 
 # Descrpition of Portfolio Website
 
@@ -19,8 +17,42 @@ The website's text and graphic contents are wrapped in HTML semantic elements an
 - Projects page: list projects that showcase my professional skills and capabilities. Projects are also listed in cards which redirect to project repositories on GitHub. 
 
 ## Sitemap
-
+![portfolio sitemap](docs/Sitemap.png)
 ## Screenshots
+- Home Page
+![home mobile](docs/screenshots/home1.png)
+
+![home tablet](docs/screenshots/home2.png)
+
+![home desktop](docs/screenshots/home3.png)
+
+- About Page
+![about mobile](docs/screenshots/about1.png)
+
+![about tablet](docs/screenshots/about2.png)
+
+![about desktop](docs/screenshots/about3.png)
+
+- Blog
+![Blog list mobile](docs/screenshots/blog-list1.png)
+
+![blog list tablet](docs/screenshots/blog-list2.png)
+
+![blog list desktop](docs/screenshots/blog-list3.png)
+
+- Blog Post
+![blog post mobile](docs/screenshots/blog-post1.png)
+
+![blog post tablet](docs/screenshots/blog-post2.png)
+
+![blog post desktop](docs/screenshots/blog-post3.png)
+
+- Projects
+![Projects mobile](docs/screenshots/projects1.png)
+
+![Projects mobile](docs/screenshots/projects2.png)
+
+![Projects mobile](docs/screenshots/projects3.png)
 
 ## Target Audience
 
