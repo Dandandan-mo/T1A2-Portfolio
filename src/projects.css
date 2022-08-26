@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&family=Old+Standard+TT&display=swap');
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background: url('images/texture.jpg') no-repeat center;
+    background-size: cover;
+}
+/* Header */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    background: #f4eedf;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'El Messiri', sans-serif;
+    color: #805d21;
+}
+
+nav a:hover {
+    color: #2c5d7c;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family: 'El Messiri', sans-serif;
+}
+/* Main Part of the Page*/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 2em;
+}
+/* Links to the Projects */
+main a {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: #f0ebdad2;
+    margin: 1em;
+    padding: 0.5em;
+    text-decoration: none;
+    height: 55vw;
+    width: 60vw;
+}
+
+main a:hover {
+    box-shadow: 3px 3px 4px #2c5d7c;
+}
+
+figure {
+    width: 55vw;
+    height: 35vw;
+}
+
+h2 {
+    font-size: 1.25em;
+    font-family: 'El Messiri', sans-serif;
+    margin-top: 0;
+    color: #853109;
+}
+
+#pic1 {
+    background:url('images/p1.jpg') no-repeat center rgb(226, 233, 166);
+    background-size: cover;
+}
+
+#pic2 {
+    background:url('images/p2.jpg') no-repeat center rgb(221, 239, 150);
+    background-size: cover;
+}
+
+#pic3 {
+    background:url('images/p3.jpg') no-repeat center rgb(216, 229, 154);
+    background-size: cover;
+}
+
+footer {
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    font-family: 'Old Standard TT', serif;
+}
+
+@media screen and (min-width:650px) and (max-width:1200px) {
+    nav a {
+        font-size: 2em;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    main a {
+        width: 55vw;
+        height: 50vw;
+        max-width: 600px;
+    }
+
+    figure {
+        width: 50vw;
+        height: 30vw;
+        max-width: 500px;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    nav a {
+        font-size: 2.5em;
+    }
+
+    h1 {
+        font-size: 3.5em;
+    }
+    
+    main {
+        margin: 0 2em 2em 2em;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    main a {
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+        width: 28vw;
+        height: 30vw;
+        margin: 1em;
+    }
+
+    figure {
+        width: 26vw;
+        height: 18vw;
+    }
+
+    h2 {
+        font-size: 2em;
+        padding-top: 1em;
+    }
+}
