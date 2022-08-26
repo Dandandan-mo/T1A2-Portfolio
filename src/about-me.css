@@ -48,7 +48,7 @@ main {
 figure {
     width: 50vw;
     height: 70vw;
-    background: url('images/photo2.jpeg') no-repeat center yellowgreen;
+    background: url('images/photo2.jpeg') no-repeat center rgb(214, 208, 132);
     background-size: cover;
     border-radius: 0 10%;
 }

@@ -83,27 +83,27 @@ p {
 }
 
 #pic1 {
-    background:url('images/gallery.jpeg') no-repeat center rgb(0, 255, 110);
+    background:url('images/gallery.jpeg') no-repeat center #d8e391;
     background-size: cover;
 }
 
 #pic2 {
-    background:url('images/walking-tracks.jpeg') no-repeat center blue;
+    background:url('images/walking-tracks.jpeg') no-repeat center #d8e391;
     background-size: cover;
 }
 
 #pic3 {
-    background:url('images/investment.jpg') no-repeat center gold;
+    background:url('images/investment.jpg') no-repeat center #d8e391;
     background-size: cover;
 }
 
 #pic4 {
-    background:url('images/composer.jpg') no-repeat center  rgb(82, 36, 16);
+    background:url('images/composer.jpg') no-repeat center  #d8e391;
     background-size: cover;
 }
 
 #pic5 {
-    background:url('images/winter.jpg') no-repeat center darkgreen;
+    background:url('images/winter.jpg') no-repeat center #d8e391;
     background-size: cover;
 }
 /* Sidebar */
