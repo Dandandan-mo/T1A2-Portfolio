@@ -81,12 +81,12 @@ h2 {
 }
 
 #pic2 {
-    background:url('images/p2.jpg') no-repeat center rgb(221, 239, 150);
+    background:url('images/p3.jpg') no-repeat center rgb(221, 239, 150);
     background-size: cover;
 }
 
 #pic3 {
-    background:url('images/p3.jpg') no-repeat center rgb(216, 229, 154);
+    background:url('images/p2.jpg') no-repeat center rgb(216, 229, 154);
     background-size: cover;
 }
 
