@@ -62,6 +62,6 @@ Target Audience of this website is potential employer within the IT industry tha
 - wireframe: Figma
 - sitemap: draw.oi
 - website: HTML5, CSS3
-- deployment: Netify
+- deployment: Netlify
 
 
