@@ -38,7 +38,7 @@ h1 {
     font-size: 2.5em;
     font-family: 'El Messiri', sans-serif;
 }
-/* Main part of the page */
+/* Main part of the page - self introduction */
 main {
     display: flex;
     flex-direction: column;
@@ -66,7 +66,7 @@ p {
     font-size: 1.25em;
     font-family: 'Old Standard TT', serif;
 }
-
+/* Link to my Resume */
 main a {
     padding: 1em;
     margin: 2.5em 0;
@@ -88,6 +88,10 @@ main a:hover {
 footer {
     display: flex;
     justify-content: center;
+}
+
+footer p {
+    font-size: 1.5rem;
 }
 
 @media screen and (min-width: 650px) and (max-width: 1200px){
@@ -122,6 +126,15 @@ footer {
     p {
         font-size: 1.5em;
     }
+
+    main a {
+        font-size: 2em;
+    }
+
+    footer p {
+        font-size: 2em;
+    }
+    
 }
 
 @media screen and (min-width: 1201px) {
@@ -164,7 +177,10 @@ footer {
 
     main a {
         margin: 3em 30vw;
+        font-size: 2em;
     }
 
-
+    footer p {
+        font-size: 2em;
+    }
 }
