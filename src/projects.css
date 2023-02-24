@@ -73,6 +73,7 @@ h2 {
     font-family: 'El Messiri', sans-serif;
     margin-top: 0;
     color: #853109;
+    text-align: center;
 }
 
 #pic1 {
@@ -162,7 +163,7 @@ footer p {
 
     h2 {
         font-size: 2em;
-        padding-top: 1em;
+        padding: 0.5em 1em 0.5em 0.5em;
     }
 
     footer p {

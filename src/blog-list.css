@@ -88,7 +88,7 @@ p {
 }
 
 #pic2 {
-    background:url('images/walking-tracks.jpeg') no-repeat center #d8e391;
+    background:url('images/solar-eclip.jpg') no-repeat center #d8e391;
     background-size: cover;
 }
 
@@ -200,10 +200,12 @@ footer p {
     h2 {
         font-size: 1.75em;
         margin-top: 0.5em;
+        text-align: center;
     }
 
     p {
         font-size: 1.25em;
+        text-align: center;
     }
 
     aside {
@@ -263,14 +265,15 @@ footer p {
         align-items: center;
         justify-content: center;
         width: 28vw;
-        height: 38vw;
+        height: 35vw;
         margin: 1em;
     }
 
     figure {
         width: 26vw;
-        height: 18vw;
+        height: 20vw;
         flex: 1;
+        margin-top: 1rem
     }
 
     div {
@@ -281,10 +284,12 @@ footer p {
         font-size: 2em;
         width: 26vw;
         padding-top: 1em;
+        text-align: center;
     }
 
     p {
         font-size: 1.5em;
+        text-align: center;
     }
 
     aside {
